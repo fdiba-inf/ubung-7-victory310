@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "TimeValidation true",
+      "setup": "cd src && javac exercise7/TimeValidation.java",
+      "run": "cd src && java -ea exercise7.TimeValidation",
+      "input": "12 30",
+      "output": "Time valid: true",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "TimeValidation false",
+      "setup": "cd src && javac exercise7/TimeValidation.java",
+      "run": "cd src && java -ea exercise7.TimeValidation",
+      "input": "50 80",
+      "output": "Time valid: false",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 3",
+      "setup": "cd src && javac exercise7/Triangle.java",
+      "run": "cd src && java -ea exercise7.Triangle",
+      "input": "3",
+      "output": "1\r\n1 2\r\n1 2 3\r\n1 2\r\n1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 4",
+      "setup": "cd src && javac exercise7/Triangle.java",
+      "run": "cd src && java -ea exercise7.Triangle",
+      "input": "4",
+      "output": "1\r\n1 2\r\n1 2 3\r\n1 2 3 4\r\n1 2 3\r\n1 2\r\n1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "NumberCounter 2",
+      "setup": "cd src && javac exercise7/NumberCounter.java",
+      "run": "cd src && java -ea exercise7.NumberCounter",
+      "input": "4 1 2 1 3 1",
+      "output": "Number occurrences: 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "NumberCounter 0",
+      "setup": "cd src && javac exercise7/NumberCounter.java",
+      "run": "cd src && java -ea exercise7.NumberCounter",
+      "input": "5 1 2 1 3 6 9",
+      "output": "Number occurrences: 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "RecursivePrimePrinter 10",
+      "setup": "cd src && javac exercise7/RecursivePrimePrinter.java",
+      "run": "cd src && java -ea exercise7.RecursivePrimePrinter",
+      "input": "10",
+      "output": "7\r\n5\r\n3\r\n2\r\n1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "RecursivePrimePrinter 15",
+      "setup": "cd src && javac exercise7/RecursivePrimePrinter.java",
+      "run": "cd src && java -ea exercise7.RecursivePrimePrinter",
+      "input": "15",
+      "output": "13\r\n11\r\n7\r\n5\r\n3\r\n2\r\n1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
